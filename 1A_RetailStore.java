@@ -32,6 +32,7 @@ class RetailItem {
       return this.desc;
    }
 
+   
    public int getUnits() {
       return this.units;
    }

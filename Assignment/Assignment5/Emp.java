@@ -34,17 +34,17 @@ public class Emp
     
     public void display()
  {
-   System.out.println("/n/n Employee Details");
-   System.out.println("/n/n Name:"+name);
-   System.out.println("/n/n Empid:"+empid);  
-   System.out.println("/n/n Category:"+category);      
-   System.out.println("/n/n bpay:"+bpay);
-   System.out.println("/n/n da:"+da);
-   System.out.println("/n/n hra:"+hra);
-   System.out.println("/n/n pf:"+pf);
-   System.out.println("/n/n all:"+allowance);
-   System.out.println("/n/n gs:"+grosspay);
-   System.out.println("/n/n Incometax:"+incometax);
-   System.out.println("/n/n npay:"+npay);
+   System.out.println("Employee Details");
+   System.out.println("Name:"+name);
+   System.out.println("Empid:"+empid);  
+   System.out.println("Category:"+category);      
+   System.out.println("bpay:"+bpay);
+   System.out.println("da:"+da);
+   System.out.println("hra:"+hra);
+   System.out.println("pf:"+pf);
+   System.out.println("all:"+allowance);
+   System.out.println("gs:"+grosspay);
+   System.out.println("Incometax:"+incometax);
+   System.out.println("npay:"+npay);
  }
 }    

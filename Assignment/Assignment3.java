@@ -11,7 +11,7 @@ class A extends Marks {
         this.m3 = m3;
     }
 
-    
+    @Override
     double getPercentage() {
         double totalMarks = m1 + m2 + m3;
         double percentage = totalMarks / 3;
@@ -29,7 +29,7 @@ class B extends Marks {
         this.m4 = m4;
     }
 
-    
+    @Override
     double getPercentage() {
         double totalMarks = m1 + m2 + m3 + m4;
         double percentage = totalMarks / 4;

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class arraybound{
+public static void arraysearch(int A[], int i)
+{
+try{
+System.out.println(A[i]);
+}
+catch(Exception e)
+{
+System.out.println("Array out of bound");
+}
+}
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int n,i;
+System.out.println("Enter Number of element to store");
+n=sc.nextInt();
+int A[] = new int[n];
+System.out.println("Enter the elements");
+for(i=0;i<n;i++)
+{
+A[i]=sc.nextInt();
+}
+System.out.println("Enter the index of element to search");
+i=sc.nextInt();
+arraysearch(A,i);
+}
+}
+
